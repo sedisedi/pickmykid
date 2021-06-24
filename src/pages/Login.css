@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+
+    margin: 0
+}
+
+.Logindiv {
+    display: flex;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+    background: #F2994A;   
+background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  
+background: linear-gradient(to right, #F2C94C, #F2994A); 
+
+
+    
+}
+
+.firstLogindiv{
+    flex: 0.1; 
+
+    display: flex;
+
+   
+}
+
+.secondLogindiv{
+    flex: 0.9;
+
+    display: flex;
+
+    flex-direction: row;
+
+ justify-content: center;
+
+
+}
+
+.imagediv{
+    flex: 0.4;
+
+    display: flex;
+
+}
+
+.formdiv{
+    flex: 0.4;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
