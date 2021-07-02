@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+
+    margin: 0
+}
+
+.maindiv {
+    display: flex;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+    background: #fcfcfc;  
+background: -webkit-linear-gradient(to right, cadetblue, cadetblue);  
+background: linear-gradient(to right, cadetblue, cadetblue); 
+
+
+    
+}
+
+.firstdiv{
+    flex: 0.1; 
+
+    display: flex;
+
+   
+}
+
+.seconddiv{
+    flex: 0.9;
+
+    display: flex;
+
+    flex-direction: row;
+
+ justify-content: center;
+
+ 
+}
+
+.imagediv{
+    flex: 0.4;
+
+    display: flex;
+
+}
+
+.formdiv{
+    flex: 0.4;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
